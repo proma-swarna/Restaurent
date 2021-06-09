@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&family=Teko:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.container-fluid{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    align-items: center;
+}
+.col-1{
+   width: 8.33%; 
+}  
+.col-2{
+    width: 16.67%;
+}  
+.col-3{
+    width: 25%;
+}  
+.col-4{
+    width: 33.33%;
+}  
+.col-5{
+    width: 41.67%;
+}  
+.col-6{
+    width: 50%;
+}  
+.col-7{
+    width: 58.33%;
+}  
+.col-8{
+    width: 66.67%;
+}  
+.col-9{
+    width: 75%;
+}  
+.col-10{
+    width: 83.33%;
+}  
+.col-11{
+    width: 91.67%;
+}  
+.col-12{
+    width: 100%;
+} 
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    padding: 0 15px;
+}   
+
+h1,h2,h3,h4,h5,h6{
+    text-transform: capitalize;
+    font-family: 'Teko', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+p,a{
+    text-transform: capitalize;
+    font-family: 'Padauk', sans-serif;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+ul{
+    list-style: none;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.mb-100{
+    margin-bottom: 100px;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.bg{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #000;
+        opacity: 0.6;
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+    }
+}
+.btn{
+    border: 1px solid #E04E26;
+    border-radius: 5%;
+} 
+.btn_back{
+    background-color: #fff;
+    border: 1px solid #E04E26;
+    border-radius: 5%;
+} 
+.btn_primary{
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+.btn_secendary{
+    color: #E04E26;
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 20px;
+}

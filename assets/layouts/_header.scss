@@ -1,0 +1,47 @@
+.header-area{
+    
+        .logo{
+            a{
+                h4{
+                    color: #fff;
+                    font-size: 40px;
+                    span{
+                        color: #E04E26;
+                        font-size: 65px;
+                    }
+                }
+            }
+        }
+        .menu{
+            ul{
+                li{
+                    display: inline-block;
+                    a{
+                        color: #fff;
+                        display: block;
+                        font-size: 20px;
+                        padding: 0px 20px;
+                    }
+                }
+            }
+        }
+    .header-content{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        text-align: center;
+            h4{
+                color: #fff;
+                font-size: 50px;
+                span{
+                    color: #E04E26;
+                }
+            }
+            p{
+                color: #fff;
+                font-size: 15px;
+                padding-bottom: 18px;
+            }
+    }
+}
