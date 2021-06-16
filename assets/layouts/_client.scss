@@ -1,0 +1,65 @@
+.reviews {
+    height: 590px;
+    .client_img{   
+        position:relative;
+        .pic3,.pic2,.pic1,.pic5,.pic6,.pic8,.pic2_c,.pic8_c,.pic3_c,.pic6_c{
+            width: 90px;
+            position: absolute;
+            border-radius: 50%;
+            border: 2px solid gainsboro;
+        }
+        .pic3{
+            top:0;
+        }
+        .pic5{
+            top: 110px;
+            left: 230px;
+        }
+        .pic6 {
+            top: 230px;
+        }
+        .pic1 {
+            top: 0px;
+            left: 233px;
+        }
+        .pic2 {
+            top: 110px;
+        }
+        .pic8{
+            left: 233px;
+            top: 230px;
+        }
+        .pic2_c {
+            top: -120px;
+            left: 195px;
+        }
+        .pic8_c {
+            bottom: -65px;
+            right: 20px;
+        }
+        .pic3_c {
+            top: -120px;
+            left: 40px;
+        }
+        .pic6_c {
+            bottom: -65px;
+        }
+    }
+    .single-reviews {
+        padding: 75px;
+        font-style: italic;
+        h4 {
+            font-size: 32px;
+        }
+        i{
+            color: #E04E26;
+            padding: 2px;
+        }
+        p {
+            color: #333;
+        }
+    }
+    .client_review{
+        background-color: #fff;
+    }
+}

@@ -1,0 +1,27 @@
+.service{
+    background-attachment: fixed;
+    height: 700px;
+    .back{
+        text-align: justify;
+        background-color: #fff;
+        h4 {
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+        i{
+            font-size: 18px;
+            color: #fff;
+            background-color: #E04E26;
+            padding: 7px;
+            border-radius: 50%;
+        }
+        p {
+            padding: 13px;
+        }
+    }
+    .clr{
+        background-color: #FD7A41;
+        transform: scale(1.01);
+        box-shadow: 2px 3px 2px 1px;
+    }
+}

@@ -23,7 +23,6 @@ html,body{
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0 -15px;
-    align-items: center;
 }
 .col-1{
    width: 8.33%; 
@@ -89,11 +88,23 @@ ul{
 .pb-100{
     padding-bottom: 100px;
 }
+.pt-50{
+    padding-top: 50px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
 .mt-100{
     margin-top: 100px;
 }
 .mb-100{
     margin-bottom: 100px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mb-50{
+    margin-bottom: 50px;
 }
 .text-left{
     text-align: left;
@@ -103,6 +114,9 @@ ul{
 }
 .text-center{
     text-align: center;
+}
+.align-center{
+    align-items: center !important;
 }
 .bg{
     height: 100%;
@@ -125,23 +139,170 @@ ul{
     }
 }
 .btn{
-    border: 1px solid #E04E26;
-    border-radius: 5%;
+    border: 2px solid #E04E26;
+    border-radius: 19%;
 } 
 .btn_back{
     background-color: #fff;
-    border: 1px solid #E04E26;
-    border-radius: 5%;
+    border: 2px solid #E04E26;
+    border-radius: 19%;
 } 
 .btn_primary{
     color: #fff;
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     padding: 0px 20px;
 }
 .btn_secendary{
     color: #E04E26;
     display: inline-block;
-    font-size: 20px;
+    font-size: 18px;
     padding: 0px 20px;
+}
+.highlight{
+    color: #E04E26;
+}
+.section-title{
+    h4{
+        font-size: 40px;
+        position: relative;
+        &::before {
+            content: "";
+            bottom: 9px;
+            left: 0;
+            background-color: #000;
+            height: 2px;
+            width: 84px;
+            position: absolute;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 6px;
+            left: -1px;
+            background-color: #E04E26;
+            height: 9px;
+            width: 10px;
+            border-radius: 50%;
+        }
+    }
+    p{
+        color: #E04E26;
+    } 
+}
+.section-title2{
+    color: #fff;
+    h4{
+        font-size: 40px;
+        position: relative;
+        &::before {
+            content: "";
+            bottom: 9px;
+            left: 0;
+            background-color: #fff;
+            height: 2px;
+            width: 84px;
+            position: absolute;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 6px;
+            left: -1px;
+            background-color: #E04E26;
+            height: 9px;
+            width: 10px;
+            border-radius: 50%;
+        }  
+    }
+    p{
+        color: #E04E26;
+    } 
+}
+.section-title3{
+    h4{
+        color: #fff;
+        font-size: 40px;
+        position: relative;
+        &::before {
+            content: "";
+            bottom: 9px;
+            left: 106px;
+            background-color: #fff;
+            height: 2px;
+            width: 84px;
+            position: absolute;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 6px;
+            left: 105px;
+            background-color: #E04E26;
+            height: 9px;
+            width: 10px;
+            border-radius: 50%;
+        }
+    }
+    p{
+        color: #E04E26;
+    } 
+}
+.section-title4{
+    h4{
+        color: #fff;
+        font-size: 40px;
+        position: relative;
+        &::before {
+            content: "";
+            bottom: 8px;
+            left: 477px;
+            background-color: #fff;
+            height: 2px;
+            width: 84px;
+            position: absolute;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            top: 43px;
+            left: 473px;
+            background-color: #E04E26;
+            height: 9px;
+            width: 10px;
+            border-radius: 50%;
+        }
+    }
+    p{
+        color: #E04E26;
+    } 
+}
+.section-title5{
+    h4{
+        color: #000;
+        font-size: 40px;
+        position: relative;
+        &::before {
+            content: "";
+            bottom: 8px;
+            left: 477px;
+            background-color: #000;
+            height: 2px;
+            width: 84px;
+            position: absolute;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            top: 43px;
+            left: 473px;
+            background-color: #E04E26;
+            height: 9px;
+            width: 10px;
+            border-radius: 50%;
+        }
+    }
+    p{
+        color: #E04E26;
+    } 
 }

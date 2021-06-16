@@ -1,0 +1,39 @@
+.discount{
+    background-color: #E04E26;
+    color: #fff;
+    h4 {
+        font-size: 28px;
+        word-spacing: 10px;
+        font-style: italic;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+.form{
+    input{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 530px;
+        margin-top: 20px;
+        border: 1px solid #E04E26;
+        padding-left: 15px;
+    }
+    select{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-right: 500px;
+        margin-top: 20px;
+        border: 1px solid #E04E26;
+        padding-left: 15px;
+    }
+    textarea {
+        padding-top: 12px;
+        padding-bottom: 50px;
+        padding-right: 418px;
+        margin-top: 20px;
+        border: 1px solid #E04E26;
+        padding-left: 15px;
+    }
+   
+}
