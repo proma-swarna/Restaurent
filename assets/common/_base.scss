@@ -71,7 +71,7 @@ h1,h2,h3,h4,h5,h6{
 a{
     text-decoration: none;
 }
-p,a{
+p,a,li{
     text-transform: capitalize;
     font-family: 'Padauk', sans-serif;
 }
@@ -158,6 +158,13 @@ ul{
     display: inline-block;
     font-size: 18px;
     padding: 0px 20px;
+}
+.btn_menu{
+    color: #E04E26;
+    display: inline-block;
+    font-size: 14px;
+    padding: 0px 10px;
+    margin-left: 20px;
 }
 .highlight{
     color: #E04E26;

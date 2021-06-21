@@ -1,15 +1,11 @@
-.menu{
-   background-attachment: fixed;
-    .single-menu{
+.menu-area{
+   height: 800px;
+   .menu-items {
         background-color: #fff;
-        padding: 5px;
-        h5 {
-            font-size: 20px;
-            padding-top: 8px;
-            letter-spacing: 2px;
-        }
-        p {
-            color: #E04E26;
+        border: 1px solid #333;
+        h4{
+            padding: 10px 0px;
+            font-size: 24px;
         }
     }
 } 
