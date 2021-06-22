@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header-area bg bg::before" style="background-image:url('assets/img/home_banner.jpg')">
+    <header class="header-area bg bg::before" style="background-image:url('assets/img/home_banner.jpg')" id="home">
         <div class="container-fluid">
             <div class="row align-center">
                 <div class="col-1">
@@ -23,15 +23,15 @@
                 </div>
                 <div class="col-11">
                     <div class="menu text-right">
-                        <ul>
-                            <li><a href="">home</a></li>
-                            <li><a href="">about</a></li>
-                            <li><a href="">menu</a></li>
-                            <li><a href="">gallery</a></li>
-                            <li><a href="">services</a></li>
-                            <li><a href="">reviews</a></li>
-                            <li><a href="">contact</a></li>
-                            <li><a href="" class="btn">reservation</a></li>
+                        <ul id="nav">
+                            <li><a href="#home">home</a></li>
+                            <li><a href="#about">about</a></li>
+                            <li><a href="#menu">menu</a></li>
+                            <li><a href="#gallery">gallery</a></li>
+                            <li><a href="#services">services</a></li>
+                            <li><a href="#reviews">reviews</a></li>
+                            <li><a href="#contact">contact</a></li>
+                            <li><a href="#reservation" class="btn">reservation</a></li>
                         </ul>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
             </div>
         </div>
     </header>
-    <section class="about-area pt-100">
+    <section class="about-area pt-100 pb-100" id="about">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-3">
@@ -66,7 +66,7 @@
             </div>
         </div>
     </section>
-    <section class="menu-area pt-50 pb-50 bg bg::before" style="background-image: url('assets/img/menu_img2.jpg');">
+    <section class="menu-area pt-50 pb-50 bg bg::before" style="background-image: url('assets/img/menu_img2.jpg');" id="menu">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -208,7 +208,7 @@
             </div>   
         </div>
     </section>
-    <section class="gallery pt-100 pb-100">
+    <section class="gallery pt-100 pb-100" id="gallery">
         <div class="container">
             <div class="row">
                 <div class="col-6">
@@ -234,7 +234,7 @@
             </div>
         </div>
     </section>
-    <section class="service pt-50 pb-100 bg bg::before" style="background-image: url('assets/img/priscilla-du-preez-J6El7kpHcYU-unsplash.jpg');">
+    <section class="service pt-50 pb-100 bg bg::before" style="background-image: url('assets/img/priscilla-du-preez-J6El7kpHcYU-unsplash.jpg');" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-4"></div>
@@ -291,7 +291,7 @@
             </div>
         </div>
     </section>
-    <section class="reservation pt-50 pb-50">
+    <section class="reservation pt-50 pb-50" id="reservation">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -302,7 +302,6 @@
                     <form class="form">
                         <input type="text" placeholder="Name"><br>
                         <input type="number" placeholder="Your Phone Number"><br>
-                        <input type="email" placeholder="Email Address"><br>
                         <input type="date" placeholder="dated"><br>
                         <select>
                             <option>Single Table</option>
@@ -316,7 +315,7 @@
             </div>
         </div>
     </section>
-    <section class="reviews pt-50 pb-50 bg bg::before" style="background-image: url('assets/img/client.jpg');">
+    <section class="reviews pt-50 pb-50 bg bg::before" style="background-image: url('assets/img/client.jpg');" id="reviews">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -345,25 +344,25 @@
                     </div>
                     <div class="single-reviews">
                                 <i class="fas fa-quote-left"></i>
-                                <h4>luwis danes</h4>
+                                <h4>wis danes</h4>
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam nemo magni quibusdam unde possimus iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ex.</p>
                     </div>
                     <div class="single-reviews">
                                 <i class="fas fa-quote-left"></i>
-                                <h4>luwis danes</h4>
+                                <h4>uwis danes</h4>
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, fugit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ex.</p>
                     </div>
                     <div class="single-reviews">
                                 <i class="fas fa-quote-left"></i>
-                                <h4>luwis danes</h4>
+                                <h4>is danes</h4>
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, assumenda?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ex.</p>
                     </div>
                     <div class="single-reviews">
                                 <i class="fas fa-quote-left"></i>
-                                <h4>luwis danes</h4>
+                                <h4>s danes</h4>
                                 <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ex.</p>
                     </div>
@@ -378,7 +377,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.6382106853493!2d91.84612861441171!3d24.9103194493935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3750559013117c33%3A0xa5ab0f4e641139b1!2sModina%20Market%20Point!5e0!3m2!1sen!2sbd!4v1624024514091!5m2!1sen!2sbd"></iframe>
         <div class="container-fluid">
             <div class="contact_details">
@@ -387,72 +386,72 @@
                         <i class="fas fa-map-marked-alt"></i>
                     </div>
                     <div class="col-10">
-                        <p><span class="highlight">address :</span> modina market, sylhet</p>
+                        <p><span>address :</span> modina market, sylhet</p>
                     </div>
                     <div class="col-2">
                         <i class="fas fa-phone-square-alt"></i>
                     </div>
                     <div class="col-10">
-                        <p><span class="highlight">phone :</span> +0098786</p>
+                        <p><span>phone :</span> +0098786</p>
                     </div>
                     <div class="col-2">
                         <i class="fas fa-envelope-open-text"></i>
                     </div> 
                     <div class="col-10">
-                        <p><span class="highlight">email :</span> chawmin@gmail.com</p>
+                        <p><span>email :</span> chawmin@gmail.com</p>
                     </div>
                     <div class="col-2">
                         <i class="fab fa-facebook-square"></i>
                     </div>
                     <div class="col-10">
-                        <p><span class="highlight">facebook :</span> chawmin restaurent</p>
+                        <p><span>facebook :</span> chawmin restaurent</p>
                     </div>
                 </div> 
             </div>
         </div>
     </section>
-    <section class="footer">
+    <section class="footer pt-50">
         <div class="container-fluid">
             <div class="row text-center">
                 <div class="col-4">
-                    <h4>about us</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, id!</p>
+                    <h4 class="pd-bottom">about us</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, explicabo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ea.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, id!</p>
                 </div>
-                <div class="col-4">
-                    <h4>quick list</h4>
+                <div class="col-4 list">
+                    <h4 class="pd-bottom">quick list</h4>
                     <div class="row">
                         <div class="col-6">
-                            <ul>
-                                <li><a href="">home</a></li>
-                                <li><a href="">about</a></li>
-                                <li><a href="">menu</a></li>
-                                <li><a href="">gallery</a></li>
+                            <ul id="nav">
+                                <li><i class="fas fa-hand-point-right"></i><a href="#home">home</a></li>
+                                <li><i class="fas fa-hand-point-right"></i><a href="#about">about</a></li>
+                                <li><i class="fas fa-hand-point-right"></i><a href="#menu">menu</a></li>
+                                <li><i class="fas fa-hand-point-right"></i><a href="#gallery">gallery</a></li>
                             </ul>
                         </div>
                         <div class="col-6">
-                            <ul>
-                                <li><a href="">home</a></li>
-                                <li><a href="">about</a></li>
-                                <li><a href="">menu</a></li>
-                                <li><a href="">gallery</a></li>
+                            <ul id="nav">
+                                <li><i class="fas fa-hand-point-right"></i><a href="#services">services</a></li>
+                                <li><i class="fas fa-hand-point-right"></i><a href="#reviews">reviews</a></li>
+                                <li><i class="fas fa-hand-point-right"></i><a href="#contact">contact</a></li>
+                                <li><i class="fas fa-hand-point-right"></i><a href="#reservation">reservation</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-4">
                     <h4>latest news</h4>
-                    <div class="news">
-                        <div class="single_news">
-                            <img src="" alt="">
-                            <p></p>
+                    <div class="news owl-carousel">
+                        <div class="single_news padding">
+                            <img src="assets/img/news (1).jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, fugit.</p>
                         </div>
-                        <div class="single_news">
-                            <img src="" alt="">
-                            <p></p>
+                        <div class="single_news padding">
+                            <img src="assets/img/news (2).jpg" alt="">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus quasi et, autem magni tempora vitae?</p>
                         </div>
-                        <div class="single_news">
-                            <img src="" alt="">
-                            <p></p>
+                        <div class="single_news padding">
+                            <img src="assets/img/news (3).jpg" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, voluptatibus!</p>
                         </div>
                     </div>
                 </div>
@@ -461,7 +460,7 @@
                 <div class="col-12">
                     <div class="footer_logo">
                         <a href="">chawmin</a>
-                        <p> &copy;copyright  restrickted.</p>
+                        <p> &copy;copyright  restrickted 2021.</p>
                     </div>
                 </div>
             </div>
@@ -469,18 +468,7 @@
     </section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/isotop.js"></script>
-    <script>
-        // init Isotope
-            var $grid = $('.menu_details').isotope({
-        // options
-        });
-        // filter items on button click
-            $('.menu-items').on( 'click', 'li', function() {
-            var filterValue = $(this).attr('data-filter');
-            $grid.isotope({ filter: filterValue });
-            });
-    </script>
+    <script src="assets/js/jquery.nav.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>

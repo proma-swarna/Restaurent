@@ -24,11 +24,16 @@
         }
     }
     .gallery_img{
+        margin-left: 120px;
         img{
-            width: 12%;
-            margin-left: -11px;
+            width: 13%;
+            margin-left: -35px;
             box-shadow: -9px 0px 3px #333;
             border: 2px solid #fff;
+            transition: .3s;
+            &:hover{
+                margin-left: -04px;
+            }
         }
         &:last-child{
             padding-left: 0;

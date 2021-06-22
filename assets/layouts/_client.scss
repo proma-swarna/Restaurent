@@ -1,5 +1,5 @@
 .reviews {
-    height: 590px;
+    height: 623px;
     .client_img{   
         position:relative;
         .pic3,.pic2,.pic1,.pic5,.pic6,.pic8,.pic2_c,.pic8_c,.pic3_c,.pic6_c{
@@ -61,5 +61,26 @@
     }
     .client_review{
         background-color: #fff;
+        .owl-dots{
+            position: absolute;
+            bottom: 33px;
+            left: 50%;
+            transform: translateX(-50%);
+            button {
+                height: 10px;
+                width: 10px;
+                background-color: #E04E26 !important;
+                margin: 0px 5px;
+                &.active{
+                    background-color: #333 !important;
+                }
+            }
+        }
+    }
+    img{
+        transition: .7s;
+        &:hover{
+            background-color: azure;
+        }
     }
 }

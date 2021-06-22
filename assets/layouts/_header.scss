@@ -1,7 +1,7 @@
 .header-area{
-    
         .logo{
             a{
+               
                 h4{
                     color: #fff;
                     font-size: 40px;
@@ -15,11 +15,20 @@
             ul{
                 li{
                     display: inline-block;
+                    &:current{
+                        background-color: #fff;
+                        color: #E04E26;
+                    }
                     a{
                         color: #fff;
                         display: block;
                         font-size: 20px;
                         padding: 0px 20px;
+                        transition: .7s;
+                        &:hover{
+                            background-color: #fff;
+                            color: #E04E26;
+                        }
                     }
                 }
             }

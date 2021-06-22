@@ -199,6 +199,13 @@ ul {
   display: inline-block;
   font-size: 18px;
   padding: 0px 20px;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+.btn_primary:hover {
+  background-color: #E04E26;
+  color: #fff;
 }
 
 .btn_secendary {
@@ -206,6 +213,13 @@ ul {
   display: inline-block;
   font-size: 18px;
   padding: 0px 20px;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+.btn_secendary:hover {
+  background-color: #E04E26;
+  color: #fff;
 }
 
 .btn_menu {
@@ -214,6 +228,13 @@ ul {
   font-size: 14px;
   padding: 0px 10px;
   margin-left: 20px;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+.btn_menu:hover {
+  background-color: #E04E26;
+  color: #fff;
 }
 
 .highlight {
@@ -390,11 +411,23 @@ ul {
   display: inline-block;
 }
 
+.header-area .menu ul li:current {
+  background-color: #fff;
+  color: #E04E26;
+}
+
 .header-area .menu ul li a {
   color: #fff;
   display: block;
   font-size: 20px;
   padding: 0px 20px;
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+.header-area .menu ul li a:hover {
+  background-color: #fff;
+  color: #E04E26;
 }
 
 .header-area .header-content {
@@ -450,12 +483,22 @@ ul {
   left: -11px;
 }
 
+.gallery .gallery_img {
+  margin-left: 120px;
+}
+
 .gallery .gallery_img img {
-  width: 12%;
-  margin-left: -11px;
+  width: 13%;
+  margin-left: -35px;
   -webkit-box-shadow: -9px 0px 3px #333;
           box-shadow: -9px 0px 3px #333;
   border: 2px solid #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.gallery .gallery_img img:hover {
+  margin-left: -04px;
 }
 
 .gallery .gallery_img:last-child {
@@ -551,7 +594,7 @@ ul {
 }
 
 .reviews {
-  height: 590px;
+  height: 623px;
 }
 
 .reviews .client_img {
@@ -633,6 +676,34 @@ ul {
   background-color: #fff;
 }
 
+.reviews .client_review .owl-dots {
+  position: absolute;
+  bottom: 33px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.reviews .client_review .owl-dots button {
+  height: 10px;
+  width: 10px;
+  background-color: #E04E26 !important;
+  margin: 0px 5px;
+}
+
+.reviews .client_review .owl-dots button.active {
+  background-color: #333 !important;
+}
+
+.reviews img {
+  -webkit-transition: .7s;
+  transition: .7s;
+}
+
+.reviews img:hover {
+  background-color: azure;
+}
+
 .contact {
   position: relative;
   height: 60%;
@@ -650,7 +721,7 @@ ul {
   left: 65%;
   right: 25px;
   padding: 33px 0px;
-  background-color: #333;
+  background-color: #E04E26;
   -webkit-box-shadow: 9px 7px 9px;
           box-shadow: 9px 7px 9px;
 }
@@ -673,11 +744,95 @@ ul {
 
 .menu-area .menu-items {
   background-color: #fff;
-  border: 1px solid #333;
+  border: 2px solid #E04E26;
+  padding: 6px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.menu-area .menu-items:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .menu-area .menu-items h4 {
   padding: 10px 0px;
   font-size: 24px;
+}
+
+.menu-area .menu-items img {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.footer.pt-50 {
+  background-color: #E04E26;
+  color: #fff;
+}
+
+.footer.pt-50 h4 {
+  font-size: 25px;
+}
+
+.footer.pt-50 .pd-bottom {
+  padding-bottom: 30px;
+}
+
+.footer.pt-50 p {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.footer.pt-50 a {
+  color: #fff;
+}
+
+.footer.pt-50 .list li {
+  text-align: left;
+  padding: 4px 42px;
+}
+
+.footer.pt-50 .list li i {
+  padding-right: 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.footer.pt-50 .list li i:hover {
+  padding-right: 5px;
+}
+
+.footer.pt-50 .padding {
+  padding: 6px 98px;
+  text-align: justify;
+}
+
+.footer.pt-50 .footer_logo {
+  position: relative;
+}
+
+.footer.pt-50 .footer_logo::before {
+  position: absolute;
+  content: "";
+  background-color: #fff;
+  height: 2px;
+  width: 22%;
+  top: -21px;
+  left: 520px;
+}
+
+.footer.pt-50 .footer_logo::after {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 513px;
+  top: -26px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.footer.pt-50 .footer_logo a {
+  font-size: 22px;
 }
 /*# sourceMappingURL=style.css.map */

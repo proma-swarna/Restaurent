@@ -152,12 +152,22 @@ ul{
     display: inline-block;
     font-size: 18px;
     padding: 0px 20px;
+    transition: .7s;
+    &:hover{
+        background-color: #E04E26;
+        color: #fff;
+    }
 }
 .btn_secendary{
     color: #E04E26;
     display: inline-block;
     font-size: 18px;
     padding: 0px 20px;
+    transition: .7s;
+    &:hover{
+        background-color: #E04E26;
+        color: #fff;
+    }
 }
 .btn_menu{
     color: #E04E26;
@@ -165,6 +175,11 @@ ul{
     font-size: 14px;
     padding: 0px 10px;
     margin-left: 20px;
+    transition: .7s;
+    &:hover{
+        background-color: #E04E26;
+        color: #fff;
+    }
 }
 .highlight{
     color: #E04E26;
