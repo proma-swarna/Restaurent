@@ -484,14 +484,14 @@ ul {
 }
 
 .gallery .gallery_img {
-  margin-left: 80px;
+  margin-left: 110px;
 }
 
 .gallery .gallery_img img {
   width: 13%;
-  margin-left: -35px;
-  -webkit-box-shadow: -9px 0px 3px #333;
-          box-shadow: -9px 0px 3px #333;
+  margin-left: -29px;
+  -webkit-box-shadow: -9px 0px 3px #020101;
+          box-shadow: -9px 0px 3px #020101;
   border: 2px solid #fff;
   -webkit-transition: .3s;
   transition: .3s;
